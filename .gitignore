@@ -1,0 +1,25 @@
+# 环境与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# 依赖与构建
+node_modules/
+dist/
+build/
+.target/
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 本地数据
+data/
+uploads/
+tmp/
